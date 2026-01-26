@@ -10,8 +10,6 @@ import java.util.List;
 public class MyWorld extends World
 {
     private Pirate pirate;
-    private int score;
-    private int coins;
 
     /**
      * Constructor for objects of class MyWorld.
@@ -36,8 +34,8 @@ public class MyWorld extends World
             String answer = Greenfoot.ask(question.getPrompt());
             if (question.isCorrect(answer))
             {
-                score += 10;
-                coins += 5;
+                pirate.addScore(10);
+                pirate.addCoins(5);
                 showText("Correct!", 300, 200);
             }
             else
@@ -47,6 +45,6 @@ public class MyWorld extends World
             Greenfoot.delay(50);
             showText("", 300, 200);
         }
-        showText("Art Island complete! Score: " + score + " Coins: " + coins, 300, 200);
+        showText("Art Island complete! Score: " + pirate.getScore() + " Coins: " + pirate.getCoins(), 300, 200);
     }
 }
