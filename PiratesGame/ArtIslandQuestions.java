@@ -3,8 +3,9 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Art Island Questions - 5 sets of questions for the Art Island
- * Each set contains 2 multiple choice questions and 2 written answer questions
+ * Art Island Questions - Contains question pool for the Art Island
+ * Pool consists of 10 multiple choice and 10 written answer questions.
+ * Generates random sets with 2 questions of each type (total 4 questions per set).
  * 
  * @author GO GIRLS! Team
  * @version 1.0
@@ -170,14 +171,16 @@ public class ArtIslandQuestions
     }
     
     /**
-     * Get random unique indices
+     * Get random unique indices using HashSet for better performance
      */
     private static List<Integer> getRandomIndices(int max, int count, Random rand)
     {
         List<Integer> indices = new ArrayList<>();
+        java.util.HashSet<Integer> seen = new java.util.HashSet<>();
         while (indices.size() < count) {
             int index = rand.nextInt(max);
-            if (!indices.contains(index)) {
+            if (!seen.contains(index)) {
+                seen.add(index);
                 indices.add(index);
             }
         }
@@ -214,6 +217,9 @@ public class ArtIslandQuestions
     public static class WrittenAnswerQuestion
     {
         public String question;
+        // Note: possibleAnswers and allHints are stored for potential future use
+        // (e.g., multiple valid answers, context-specific hints)
+        // Currently only correctAnswer and correctHint are used
         public String[] possibleAnswers;
         public String[] allHints;
         public String correctAnswer;
