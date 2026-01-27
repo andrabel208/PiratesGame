@@ -1,6 +1,11 @@
 An educational 2D game developed by the team GO GIRLS! for a school competition, combining adventure and learning through a pirate-themed interactive experience.
 
-About the Game
+## 📚 Documentation
+
+- **[Workflow Guide](WORKFLOW.md)** - Complete guide for working with Greenfoot and GitHub (Romanian & English)
+- **[Quick Reference](QUICK_REFERENCE.md)** - Quick steps for saving and syncing your work
+
+## About the Game
 
 Pirații din Karaibe is an educational adventure game where players take on the role of pirates navigating between islands to test and improve their knowledge across multiple school subjects.
 
