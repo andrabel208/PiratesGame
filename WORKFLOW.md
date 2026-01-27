@@ -20,6 +20,100 @@ PiratesGame/
 └── .gitignore          # Fișiere care sunt ignorate de Git
 ```
 
+#### ❓ IMPORTANT: Două Situații Diferite
+
+**Întrebarea ta:** "Am văzut modificările pe GitHub web. Trebuie să deschid GitHub Desktop, să scriu mesaj și să dau commit și push?"
+
+**Răspuns scurt:** **NU!** Depinde de situație:
+
+##### 🔵 Situația 1: Modificările sunt deja pe GitHub (făcute de altcineva sau de Copilot)
+
+**Ce vezi:** 
+- Pe GitHub.com vezi fișiere noi sau modificate (cum ar fi WORKFLOW.md, QUICK_REFERENCE.md)
+- Ai deschis GitHub Desktop și NU vezi fișiere în panoul "Changes"
+
+**Ce trebuie să faci:**
+1. **Pull (Descarcă) modificările:**
+   - Deschide GitHub Desktop
+   - Click pe **"Fetch origin"** (sus, în toolbar)
+   - Dacă apare **"Pull origin"**, click pe el
+   - Acum fișierele noi sunt pe computerul tău!
+
+2. **NU trebuie să faci commit sau push!** 
+   - Modificările sunt deja salvate pe GitHub
+   - Tu doar le descarci pe computerul tău
+   - Poți vedea fișierele în folder-ul tău local
+
+##### 🔴 Situația 2: AI făcut TU modificări locale (în Greenfoot)
+
+**Ce vezi:**
+- Ai editat fișiere în Greenfoot Desktop
+- Ai salvat cu Ctrl+S
+- GitHub Desktop arată fișierele modificate în panoul "Changes"
+
+**Ce trebuie să faci:**
+1. **Verifică modificările** în GitHub Desktop
+2. **Scrie mesaj de commit**
+3. **Click "Commit to [branch]"**
+4. **Click "Push origin"**
+
+##### 📊 Rezumat Vizual
+
+```
+┌─────────────────────────────────────────┐
+│ Ai modificări pe GitHub web?            │
+│ (făcute de altcineva/Copilot)          │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+        GitHub Desktop
+               │
+        ┌──────┴──────┐
+        │             │
+    DA există      NU există
+    "Pull origin"  "Pull origin"
+        │             │
+        ↓             ↓
+   Click PULL     Totul e la zi!
+        │
+        ↓
+   Fișierele sunt
+   acum pe PC-ul tău
+```
+
+```
+┌─────────────────────────────────────────┐
+│ Ai editat TU fișiere în Greenfoot?      │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+        Ai salvat cu Ctrl+S?
+               │
+        ┌──────┴──────┐
+        │             │
+       DA            NU
+        │             │
+        ↓             ↓
+   GitHub Desktop  Salvează ACUM!
+        │         (apoi continuă)
+        ↓
+   Vezi fișiere în
+   panoul "Changes"?
+        │
+        ↓
+   Scrie mesaj commit
+        │
+        ↓
+   Click "Commit"
+        │
+        ↓
+   Click "Push origin"
+        │
+        ↓
+   Modificările tale
+   sunt pe GitHub!
+```
+
 #### 🔄 Workflow Complet: Greenfoot → GitHub
 
 ##### Pasul 1: Lucrează în Greenfoot Desktop
@@ -161,6 +255,100 @@ PiratesGame/
 │   └── project.greenfoot # Greenfoot project configuration
 ├── README.md            # Project description
 └── .gitignore          # Files ignored by Git
+```
+
+#### ❓ IMPORTANT: Two Different Situations
+
+**Your question:** "I see the changes on GitHub web. Do I need to open GitHub Desktop, write a message, commit and push?"
+
+**Short answer:** **NO!** It depends on the situation:
+
+##### 🔵 Situation 1: Changes are already on GitHub (made by someone else or Copilot)
+
+**What you see:**
+- On GitHub.com you see new or modified files (like WORKFLOW.md, QUICK_REFERENCE.md)
+- You open GitHub Desktop and DON'T see files in the "Changes" panel
+
+**What you need to do:**
+1. **Pull (Download) the changes:**
+   - Open GitHub Desktop
+   - Click **"Fetch origin"** (top toolbar)
+   - If **"Pull origin"** appears, click it
+   - Now the new files are on your computer!
+
+2. **You DON'T need to commit or push!**
+   - Changes are already saved on GitHub
+   - You're just downloading them to your computer
+   - You can see the files in your local folder
+
+##### 🔴 Situation 2: YOU made local changes (in Greenfoot)
+
+**What you see:**
+- You edited files in Greenfoot Desktop
+- You saved with Ctrl+S
+- GitHub Desktop shows modified files in the "Changes" panel
+
+**What you need to do:**
+1. **Review the changes** in GitHub Desktop
+2. **Write a commit message**
+3. **Click "Commit to [branch]"**
+4. **Click "Push origin"**
+
+##### 📊 Visual Summary
+
+```
+┌─────────────────────────────────────────┐
+│ Do you have changes on GitHub web?      │
+│ (made by someone else/Copilot)          │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+        GitHub Desktop
+               │
+        ┌──────┴──────┐
+        │             │
+    YES there's     NO "Pull
+    "Pull origin"    origin"
+        │             │
+        ↓             ↓
+   Click PULL    Everything
+        │         is up to date!
+        ↓
+   Files are now
+   on your PC
+```
+
+```
+┌─────────────────────────────────────────┐
+│ Did YOU edit files in Greenfoot?        │
+└──────────────┬──────────────────────────┘
+               │
+               ↓
+        Did you save with Ctrl+S?
+               │
+        ┌──────┴──────┐
+        │             │
+       YES            NO
+        │             │
+        ↓             ↓
+   GitHub Desktop  Save NOW!
+        │         (then continue)
+        ↓
+   See files in
+   "Changes" panel?
+        │
+        ↓
+   Write commit message
+        │
+        ↓
+   Click "Commit"
+        │
+        ↓
+   Click "Push origin"
+        │
+        ↓
+   Your changes
+   are on GitHub!
 ```
 
 #### 🔄 Complete Workflow: Greenfoot → GitHub

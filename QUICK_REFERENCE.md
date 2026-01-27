@@ -1,6 +1,33 @@
 # Quick Reference / Referință Rapidă
 
-## 🇷🇴 Pași Rapizi pentru Salvarea Modificărilor
+## ❓ Ce Situație Ai? / What's Your Situation?
+
+### 🔵 Modificări deja pe GitHub (făcute de altcineva)
+### 🔵 Changes already on GitHub (made by someone else)
+
+**RO:** Ai văzut modificări pe GitHub.com → **PULL** (descarcă), NU commit!
+**EN:** You see changes on GitHub.com → **PULL** (download), DON'T commit!
+
+```
+GitHub Desktop:
+1. Click "Fetch origin"
+2. Dacă apare "Pull origin", click pe el / If "Pull origin" appears, click it
+3. ✅ Gata! Fișierele sunt acum pe PC-ul tău / Done! Files are now on your PC
+```
+
+### 🔴 AI făcut TU modificări în Greenfoot
+### 🔴 YOU made changes in Greenfoot
+
+**RO:** Ai editat și salvat fișiere → **COMMIT și PUSH**
+**EN:** You edited and saved files → **COMMIT and PUSH**
+
+```
+Urmează pașii de mai jos / Follow steps below
+```
+
+---
+
+## 🇷🇴 Pași Rapizi pentru Salvarea Modificărilor Tale
 
 ### 1️⃣ În Greenfoot Desktop
 ```
