@@ -46,5 +46,23 @@ public class MyWorld extends World
             showText("", 300, 200);
         }
         showText("Art Island complete! Score: " + pirate.getScore() + " Coins: " + pirate.getCoins(), 300, 200);
+        
+        // Add some pirates to the world
+        addPirates();
+    }
+    
+    /**
+     * Add pirates to the world
+     */
+    private void addPirates()
+    {
+        // Add a few pirates at random locations
+        for (int i = 0; i < 3; i++)
+        {
+            int x = Greenfoot.getRandomNumber(getWidth() - 60) + 30;
+            int y = Greenfoot.getRandomNumber(getHeight() - 60) + 30;
+            Pirate pirate = new Pirate("Pirate " + (i + 1));
+            addObject(pirate, x, y);
+        }
     }
 }
