@@ -1,5 +1,7 @@
 An educational 2D game developed by the team GO GIRLS! for a school competition, combining adventure and learning through a pirate-themed interactive experience.
 
+[![wakatime](https://wakatime.com/badge/github/andrabel208/PiratesGame.svg)](https://wakatime.com/badge/github/andrabel208/PiratesGame)
+
 ## 📚 Documentation
 
 - **[Workflow Guide](WORKFLOW.md)** - Complete guide for working with Greenfoot and GitHub (Romanian & English)

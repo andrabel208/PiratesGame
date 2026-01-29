@@ -474,6 +474,255 @@ PiratesGame/
 
 ---
 
+---
+
+## 📊 Wakatime Badge - Time Tracking
+
+### 🇷🇴 Ce este Wakatime?
+
+**Wakatime** este un instrument automat care monitorizează timpul pe care îl petreci programând. Badge-ul Wakatime afișat în README arată cât timp ai petrecut lucrând la acest proiect.
+
+#### Cum funcționează?
+
+1. **Badge-ul este automat** - nu trebuie să faci nimic special
+2. Se actualizează automat când lucrezi la cod
+3. Afișează timpul total petrecut pe proiect
+
+#### Cum să adaugi tracking Wakatime (opțional)
+
+Dacă vrei să vezi statistici detaliate despre timpul tău de lucru:
+
+1. **Creează cont gratuit:**
+   - Du-te la [wakatime.com](https://wakatime.com)
+   - Înregistrează-te cu email-ul tău
+
+2. **Instalează extensia pentru editorul tău:**
+   - Pentru Greenfoot/IntelliJ IDEA: [wakatime.com/plugins](https://wakatime.com/plugins)
+   - Urmărește instrucțiunile de instalare
+   - Autentifică-te cu contul tău Wakatime
+
+3. **Badge-ul este deja adăugat:**
+   - Badge-ul din README funcționează automat
+   - Nu trebuie să faci nimic special pentru a-l afișa
+
+### 🇬🇧 What is Wakatime?
+
+**Wakatime** is an automatic tool that tracks the time you spend coding. The Wakatime badge displayed in the README shows how much time has been spent working on this project.
+
+#### How does it work?
+
+1. **The badge is automatic** - you don't need to do anything special
+2. It updates automatically when you work on code
+3. Displays total time spent on the project
+
+#### How to add Wakatime tracking (optional)
+
+If you want to see detailed statistics about your coding time:
+
+1. **Create free account:**
+   - Go to [wakatime.com](https://wakatime.com)
+   - Sign up with your email
+
+2. **Install extension for your editor:**
+   - For Greenfoot/IntelliJ IDEA: [wakatime.com/plugins](https://wakatime.com/plugins)
+   - Follow installation instructions
+   - Authenticate with your Wakatime account
+
+3. **Badge is already added:**
+   - The badge in README works automatically
+   - You don't need to do anything special to display it
+
+---
+
+## 🔀 Consolidating Multiple Branches
+
+### 🇷🇴 Cum să Consolidezi Mai Multe Branch-uri
+
+Dacă ai mai multe branch-uri cu lucru diferit și vrei să le combini într-unul singur fără să pierzi munca, urmează acești pași:
+
+#### Situația Curentă
+
+Repository-ul are multiple branch-uri:
+- `main` - branch-ul principal
+- `andrabel208-patch-1` - modificări README
+- `copilot/update-art-island-questions` - întrebări și documentație
+- `feature/arta-islan` - implementare Art Island
+
+#### Pasul 1: Înțelege Ce Conține Fiecare Branch
+
+Înainte de a consolida, verifică ce modificări are fiecare branch:
+
+1. **Pe GitHub.com:**
+   - Du-te la repository: https://github.com/andrabel208/PiratesGame
+   - Click pe dropdown-ul cu branch-uri (unde scrie "main")
+   - Selectează fiecare branch și vezi ce fișiere sunt diferite
+
+2. **În GitHub Desktop:**
+   - Click pe "Current Branch" (sus)
+   - Selectează un branch pentru a-l vedea
+   - Click pe "History" pentru a vedea commit-urile
+
+#### Pasul 2: Decide Care Este Branch-ul Principal
+
+De obicei, `main` este branch-ul principal. Toate celelalte branch-uri ar trebui combinate în `main`.
+
+#### Pasul 3: Mergeează (Combină) Branch-urile
+
+**Metoda Recomandată - Folosind Pull Requests pe GitHub:**
+
+1. **Pentru fiecare branch (andrabel208-patch-1, copilot/update-art-island-questions, feature/arta-islan):**
+
+   a. **Creează Pull Request:**
+   - Du-te pe GitHub.com: https://github.com/andrabel208/PiratesGame
+   - Click pe "Pull requests" → "New pull request"
+   - Setează:
+     - **base:** `main` (unde vrei să mergi)
+     - **compare:** branch-ul tău (ex: `feature/arta-islan`)
+   - Click "Create pull request"
+   - Adaugă o descriere despre ce conține branch-ul
+   - Click "Create pull request"
+
+   b. **Verifică Conflictele:**
+   - GitHub îți va spune dacă sunt conflicte
+   - Dacă sunt conflicte, click pe "Resolve conflicts"
+   - Alege ce cod să păstrezi (de obicei vrei ambele modificări)
+   - Click "Mark as resolved" apoi "Commit merge"
+
+   c. **Merge Pull Request:**
+   - Click pe "Merge pull request"
+   - Click "Confirm merge"
+   - Branch-ul este acum combinat în `main`!
+
+2. **După ce ai combinat toate branch-urile:**
+   - Branch-ul `main` conține toată munca
+   - Poți șterge branch-urile vechi (GitHub oferă această opțiune după merge)
+   - Sau le poți păstra pentru referință
+
+#### Pasul 4: Actualizează Branch-ul Local
+
+După ce ai făcut merge pe GitHub:
+
+1. **În GitHub Desktop:**
+   - Schimbă la branch-ul `main`
+   - Click "Fetch origin"
+   - Click "Pull origin"
+   - Acum ai toate modificările locale!
+
+#### Pasul 5: (Opțional) Curăță Branch-urile Vechi
+
+După ce totul este în `main`:
+
+1. **Pe GitHub.com:**
+   - Du-te la repository → Settings → Branches
+   - Sau șterge fiecare branch după merge (GitHub oferă butonul "Delete branch")
+
+2. **În GitHub Desktop:**
+   - Branch → Delete și selectează branch-urile vechi
+
+### 🇬🇧 How to Consolidate Multiple Branches
+
+If you have multiple branches with different work and want to combine them into one without losing work, follow these steps:
+
+#### Current Situation
+
+The repository has multiple branches:
+- `main` - main branch
+- `andrabel208-patch-1` - README changes
+- `copilot/update-art-island-questions` - questions and documentation
+- `feature/arta-islan` - Art Island implementation
+
+#### Step 1: Understand What Each Branch Contains
+
+Before consolidating, check what changes each branch has:
+
+1. **On GitHub.com:**
+   - Go to repository: https://github.com/andrabel208/PiratesGame
+   - Click on the branches dropdown (where it says "main")
+   - Select each branch and see which files are different
+
+2. **In GitHub Desktop:**
+   - Click on "Current Branch" (top)
+   - Select a branch to view it
+   - Click on "History" to see the commits
+
+#### Step 2: Decide Which Is the Main Branch
+
+Usually, `main` is the main branch. All other branches should be combined into `main`.
+
+#### Step 3: Merge the Branches
+
+**Recommended Method - Using Pull Requests on GitHub:**
+
+1. **For each branch (andrabel208-patch-1, copilot/update-art-island-questions, feature/arta-islan):**
+
+   a. **Create Pull Request:**
+   - Go to GitHub.com: https://github.com/andrabel208/PiratesGame
+   - Click "Pull requests" → "New pull request"
+   - Set:
+     - **base:** `main` (where you want to go)
+     - **compare:** your branch (e.g., `feature/arta-islan`)
+   - Click "Create pull request"
+   - Add a description of what the branch contains
+   - Click "Create pull request"
+
+   b. **Check for Conflicts:**
+   - GitHub will tell you if there are conflicts
+   - If there are conflicts, click "Resolve conflicts"
+   - Choose which code to keep (usually you want both changes)
+   - Click "Mark as resolved" then "Commit merge"
+
+   c. **Merge Pull Request:**
+   - Click "Merge pull request"
+   - Click "Confirm merge"
+   - The branch is now combined into `main`!
+
+2. **After you've merged all branches:**
+   - The `main` branch contains all the work
+   - You can delete old branches (GitHub offers this option after merge)
+   - Or you can keep them for reference
+
+#### Step 4: Update Local Branch
+
+After merging on GitHub:
+
+1. **In GitHub Desktop:**
+   - Switch to `main` branch
+   - Click "Fetch origin"
+   - Click "Pull origin"
+   - Now you have all changes locally!
+
+#### Step 5: (Optional) Clean Up Old Branches
+
+After everything is in `main`:
+
+1. **On GitHub.com:**
+   - Go to repository → Settings → Branches
+   - Or delete each branch after merge (GitHub offers "Delete branch" button)
+
+2. **In GitHub Desktop:**
+   - Branch → Delete and select old branches
+
+#### ⚠️ Important Tips for Branch Consolidation
+
+1. **Backup first:**
+   - Make sure all branches are pushed to GitHub before starting
+   - You can always recover from GitHub if something goes wrong
+
+2. **One branch at a time:**
+   - Merge one branch at a time
+   - Test after each merge to ensure everything works
+
+3. **Resolve conflicts carefully:**
+   - Read the conflicting code carefully
+   - Usually you want to keep both sets of changes
+   - Test the code after resolving conflicts
+
+4. **Don't force delete:**
+   - Only delete branches after successful merge
+   - Keep branches if you're unsure
+
+---
+
 ## 🆘 Need Help?
 
 If you encounter issues:
