@@ -103,10 +103,10 @@ If you followed these steps, your changes are safe! 🎉
 
 ## 📞 Ai nevoie de ajutor? / Need help?
 
-### 📊 Wakatime Badge
-**RO:** Badge-ul Wakatime arată timpul petrecut pe proiect. Vezi [WORKFLOW.md](WORKFLOW.md#-wakatime-badge---time-tracking) pentru detalii.
+### 📊 Hackatime Badge
+**RO:** Badge-ul Hackatime arată timpul petrecut pe proiect. Vezi [WORKFLOW.md](WORKFLOW.md#-hackatime-badge---time-tracking) pentru detalii.
 
-**EN:** Wakatime badge shows time spent on project. See [WORKFLOW.md](WORKFLOW.md#-wakatime-badge---time-tracking) for details.
+**EN:** Hackatime badge shows time spent on project. See [WORKFLOW.md](WORKFLOW.md#-hackatime-badge---time-tracking) for details.
 
 ### 🔀 Consolidare Branch-uri / Branch Consolidation
 **RO:** Ai mai multe branch-uri? Vezi [WORKFLOW.md](WORKFLOW.md#-consolidating-multiple-branches) pentru ghid complet.

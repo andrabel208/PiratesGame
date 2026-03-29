@@ -476,11 +476,11 @@ PiratesGame/
 
 ---
 
-## 📊 Wakatime Badge - Time Tracking
+## 📊 Hackatime Badge - Time Tracking
 
-### 🇷🇴 Ce este Wakatime?
+### 🇷🇴 Ce este Hackatime?
 
-**Wakatime** este un instrument automat care monitorizează timpul pe care îl petreci programând. Badge-ul Wakatime afișat în README arată cât timp ai petrecut lucrând la acest proiect.
+**Hackatime** este un instrument automat care monitorizează timpul pe care îl petreci programând. Badge-ul Hackatime afișat în README arată cât timp ai petrecut lucrând la acest proiect.
 
 #### Cum funcționează?
 
@@ -488,26 +488,25 @@ PiratesGame/
 2. Se actualizează automat când lucrezi la cod
 3. Afișează timpul total petrecut pe proiect
 
-#### Cum să adaugi tracking Wakatime (opțional)
+#### Cum să adaugi tracking Hackatime (opțional)
 
 Dacă vrei să vezi statistici detaliate despre timpul tău de lucru:
 
 1. **Creează cont gratuit:**
-   - Du-te la [wakatime.com](https://wakatime.com)
-   - Înregistrează-te cu email-ul tău
+   - Du-te la [hackatime.hackclub.com](https://hackatime.hackclub.com)
+   - Urmează pașii de înregistrare
 
 2. **Instalează extensia pentru editorul tău:**
-   - Pentru Greenfoot/IntelliJ IDEA: [wakatime.com/plugins](https://wakatime.com/plugins)
-   - Urmărește instrucțiunile de instalare
-   - Autentifică-te cu contul tău Wakatime
+   - Urmează instrucțiunile de configurare din Hackatime pentru editorul folosit
+   - Autentifică-te cu contul tău Hackatime
 
 3. **Badge-ul este deja adăugat:**
    - Badge-ul din README funcționează automat
    - Nu trebuie să faci nimic special pentru a-l afișa
 
-### 🇬🇧 What is Wakatime?
+### 🇬🇧 What is Hackatime?
 
-**Wakatime** is an automatic tool that tracks the time you spend coding. The Wakatime badge displayed in the README shows how much time has been spent working on this project.
+**Hackatime** is an automatic tool that tracks the time you spend coding. The Hackatime badge displayed in the README shows how much time has been spent working on this project.
 
 #### How does it work?
 
@@ -515,18 +514,17 @@ Dacă vrei să vezi statistici detaliate despre timpul tău de lucru:
 2. It updates automatically when you work on code
 3. Displays total time spent on the project
 
-#### How to add Wakatime tracking (optional)
+#### How to add Hackatime tracking (optional)
 
 If you want to see detailed statistics about your coding time:
 
 1. **Create free account:**
-   - Go to [wakatime.com](https://wakatime.com)
-   - Sign up with your email
+   - Go to [hackatime.hackclub.com](https://hackatime.hackclub.com)
+   - Follow the signup steps
 
 2. **Install extension for your editor:**
-   - For Greenfoot/IntelliJ IDEA: [wakatime.com/plugins](https://wakatime.com/plugins)
-   - Follow installation instructions
-   - Authenticate with your Wakatime account
+   - Follow the Hackatime setup instructions for your editor
+   - Authenticate with your Hackatime account
 
 3. **Badge is already added:**
    - The badge in README works automatically
